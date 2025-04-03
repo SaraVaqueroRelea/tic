@@ -1,0 +1,19 @@
+echo "Hola Mundo"
+
+printf "Esto es %s con %d formato\n" "un ejemplo" 1
+echo " //\  _ /\\"
+echo " ( .    . )"
+echo " (        )"
+
+
+
+Permisos solo al propietario
+chmod 700 mi_archivo.txt
+
+Para dar permisos de lectura y escritura a todos los usuarios: 
+chmod 666 mi_archivo.txt
+
+Consideraciones importantes:
+Necesitas ser el propietario del archivo o tener privilegios de superusuario (usando sudo) para cambiar los permisos.
+cambiar permisos a directorios, se usa el flag "-R" para hacerlo de forma recursiva, es decir que afecta a todos los archivos y subdirectorios dentro del dir
+sudo chmod -R 755 /home/usuario/mi_carpeta
