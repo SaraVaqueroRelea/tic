@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo apt install mpv ffmpeg yt-dlp
+
+yt-dlp "https://www.youtube.com/watch?v=XY5p-Tg7zOU" -o bad_apple.mp4
+
+ffmpeg -i bad_apple.mp4 -s 640x480 -c:v libx264 -c:a aac bad_apple_resized.mp4
+
+mpv --vo=caca bad_apple.mp4

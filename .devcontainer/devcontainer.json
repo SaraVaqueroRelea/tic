@@ -1,0 +1,7 @@
+{
+    "name": "Custom Codespace with mpv and yt-dlp",
+    "dockerFile": "Dockerfile",
+    "settings": {},
+    "extensions": []
+  }
+  
